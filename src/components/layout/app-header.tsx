@@ -12,6 +12,7 @@ import {
   Command,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { ChiptunePlayer } from "@/components/chiptune-player";
 import { useAppStore } from "@/stores/app-store";
 import {
   CommandDialog,
@@ -150,6 +151,7 @@ export function AppHeader() {
           </Button>
         )}
 
+        <ChiptunePlayer />
         <Button
           variant="ghost"
           size="icon"
